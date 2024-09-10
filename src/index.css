@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hover-container:hover .zoom-text {
+    animation: zoomTwice 1s ease-in-out;
+    display: block;
+  }
+  
+  @keyframes zoomTwice {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.2);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+    @font-face {
+    font-family: 'Satoshi Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Regular'), url('/fonts/Satoshi-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Italic'), url('/fonts/Satoshi-Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Light'), url('/fonts/Satoshi-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Light Italic'), url('/fonts/Satoshi-LightItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Medium'), url('/fonts/Satoshi-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Medium Italic'), url('/fonts/Satoshi-MediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Bold'), url('/fonts/Satoshi-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Bold Italic'), url('/fonts/Satoshi-BoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Black'), url('/fonts/Satoshi-Black.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Satoshi Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Satoshi Black Italic'), url('Satoshi-BlackItalic.woff') format('woff');
+    }
